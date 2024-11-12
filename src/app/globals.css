@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menu::-webkit-scrollbar{
+    display: none;
+}
+
+.react-calendar{
+    width: 100% !important;
+    border:none !important;
+    font-family: "Inter",sans-serif !important;
+}
+
+.react-calendar__tile--active{
+    background-color: #C3EBFA !important;
+    color:black !important;
+}
+
+.react-calendar button:enabled:hover {
+    background-color: #EDF9FD !important;
+}
+.react-calendar__navigation__label__labelText{
+    font-weight: bold !important;
+}
+
+.rbc-toolbar-label{
+   text-align: right !important;
+}
+.rbc-btn-group:first-child{
+    display: none !important;
+}
+.rbc-btn-group{
+    font-size: 13px !important;
+}
+.rbc-btn-group button{
+    border: none  !important;
+    background-color: #f1f0ff !important;
+    margin-left: 2px !important;
+}
+.rbc-toolbar button.rbc-active{
+    background-color: #dbdafe !important;
+    box-shadow: none !important;
+}
+
+
+.rbc-time-view{
+    /* border:1px solid gray !important; */
+}
+.rbc-time-content{
+   border:none !important;
+}
+
+.rbc-timeslot-group{
+    font-size: 12px !important;
+    padding-top: 20px !important;
+    background-color: #f7fdff !important;
+}
+.rbc-event{
+    font-size: 14px !important;
+    width: 90% !important; 
+    margin-top: 10px !important;
+    margin-left: 10px !important;
+    border:none !important;
+    color: black !important;
+    padding: 0px 0px !important;
+    outline: none;
+}
+.rbc-event:nth-child(1){
+    background-color: #C3EBFA !important;
+}
+.rbc-event:nth-child(2){
+    background-color: #EDF9FD !important;
+}
+.rbc-event:nth-child(3){
+    background-color: #CFCFFF !important;
+}
+.rbc-event:nth-child(4){
+    background-color: #F1F0FF !important;
+}
+.rbc-event:nth-child(5){
+    background-color: #FAE27C !important;
+}
+.rbc-event:nth-child(6){
+    background-color: #CFCFFF !important;
+}
+
+.rbc-toolbar{
+    align-items: start !important;
+}
+
+.bigcalender::-webkit-scrollbar{
+  display: none;
+}
+
+@media (max-width) {
+    .rbc-toolbar{
+        align-items: start;
+    }
+}
+
